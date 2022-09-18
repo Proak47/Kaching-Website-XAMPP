@@ -1,0 +1,74 @@
+#container{        
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 800px;
+}
+#top{ 
+    
+    background-color: aqua;
+    height: 11.8em;
+    margin:0%;
+    width: auto;
+    display:block;
+}
+#deco{
+    background-color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    overflow:hidden;
+    background-color: inherit;
+    min-width: 750px;
+    top: 20px;
+    right: 0px;
+    margin-bottom: 50px;
+}
+.nav a{
+    text-align: center;
+    border: none;
+    margin: 30px ;
+    margin-left: 90px;
+    padding: 15px;
+    width: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: White;
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-size: 600%;
+    animation: animate 16s linear infinite;
+}
+@keyframes animate{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+table, th{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(100, 190, 152);
+}
+td{
+    background-color: white;
+}
+footer{
+    overflow: hidden;
+    float: left;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+body{
+    background-image: url("crossline-lines.png");
+}
